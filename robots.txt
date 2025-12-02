@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://sofiapw.github.io/sofiapenabaz.com/sitemap.xml
