@@ -1,227 +1,275 @@
 # EXPERIENCE
 
-## 11/2023 -- Present: Puerto Vallarta, Jalisco, Mexico. **Mentor**
+---
 
-Using knowledge of publication and research methods, as well as complex systems, to mentor a master's student in Cybernetics from DePaul University in his academic practices. Performing as second author for conferences and publications.
+## Mentor
+**Puerto Vallarta, Jalisco, Mexico** | Nov 2023 – Present
 
-## 10/2021 -- Present: Chiba University, Matsudo City, Chiba Prefecture. **Part-time Lecturer**
+- Mentor a master's student in Cybernetics (DePaul University) on publication methods, research practices, and complex systems
+- Serve as second author for conferences and publications
 
-Teaching Landscape and Environmental Science in English. Undergraduate required course for all juniors. Using Google Classroom and several multimedia and online tools to enhance the lesson, critical thinking, interaction, language production, and active learning. Various reading, listening, and comprehension sources include books, websites, academic papers, audiobooks, and movies.
+---
 
-## 5/2020 -- Ongoing: Greencastle, Matsudo City, Chiba Prefecture. **Consultant & Designer (Self-employed)**
+## Part-time Lecturer
+**Chiba University, Matsudo City, Chiba Prefecture** | Oct 2021 – Present
 
-Green ethnobotanical design for indoor, outdoor, and rooftop environments. Research which plants grow best in what environments. Study how to propagate native and tropical (indoor) plants. Ethnobotanical plant studies for modern use.
+- Deliver Landscape and Environmental Science curriculum in English to all undergraduate juniors (required course)
+- Leverage Google Classroom and multimedia tools to drive critical thinking, interaction, and active learning
+- Curate diverse learning materials: books, academic papers, websites, audiobooks, and films
 
-Language and cultural consulting involves teaching language, editing English academic papers, intercultural and linguistic interpretation, voice-over, commercial and technical language editing, and cultural tours of Japan (and of Puerto Vallarta, MX, continued in 2022). Customers include Chiba University, Parker's (greenery and interior design), and various individuals.
+---
 
-## 02/2020 -- 03/2020: Kamiyama Green Valley NPO, S6IX Accelerator Program, Kamiyama Village, Tokushima. **Mentor**
+## Consultant & Designer (Self-employed)
+**Greencastle, Matsudo City, Chiba Prefecture** | May 2020 – Present
 
-*Mentoring on ethnobotanical aquaponics units for local revitalization.*
+**Ethnobotanical Design**
+- Create green designs for indoor, outdoor, and rooftop environments
+- Research optimal plant-environment pairings and propagation techniques for native and tropical species
+- Conduct ethnobotanical plant studies for modern applications
 
-Imparting ethnobotanical knowledge, teaching social research techniques, doing aquaponics design specific to the innovative project, public presentations, and teamwork. Halted due to the pandemic.
+**Language & Cultural Consulting**
+- Edit English academic papers, commercial materials, and technical documents
+- Provide intercultural and linguistic interpretation and voice-over services
+- Lead cultural tours of Japan (and Puerto Vallarta, MX, since 2022)
+- Clients: Chiba University, Parker's (greenery and interior design), and private individuals
 
-## 10/2018 -- 9/2021: Chiba University, Matsudo City, Chiba Prefecture. **Post-Doctoral Researcher**
+---
 
-Wrote, submitted, and edited academic literature for self and faculty.
+## Mentor
+**Kamiyama Green Valley NPO, S6IX Accelerator Program, Kamiyama Village, Tokushima** | Feb 2020 – Mar 2020
 
-Edited English handouts, pamphlets, books, promotional materials and letters for university staff and faculty.
+*Ethnobotanical aquaponics units for local revitalization*
 
-Aided faculty with campus duties and academic activities.
+- Delivered ethnobotanical knowledge and social research training
+- Designed aquaponics systems for the innovative revitalization project
+- Led public presentations and collaborative teamwork sessions
+- Program halted due to pandemic
 
-Did translation and interpretation, tour guiding, and general help with hosting international conferences and visitors.
+---
 
-In charge of organizing and conducting the English-speaking-hour for Japanese and international students.
+## Post-Doctoral Researcher
+**Chiba University, Matsudo City, Chiba Prefecture** | Oct 2018 – Sep 2021
 
-## 6/2019 -- 8/2019: Shanghai PI Cultural Exchange, Shanghai, China. **Ethnobotanical Plant Educator, Landscape Designer**
+- Authored, submitted, and edited academic literature for personal and faculty publications
+- Edited English handouts, pamphlets, books, promotional materials, and letters for university staff and faculty
+- Supported faculty with campus duties and academic activities
+- Provided translation, interpretation, tour guiding, and logistical support for international conferences and visitors
+- Organized and conducted the English-speaking hour for Japanese and international students
 
-Taught classes several times per week at community centers and libraries about Ethnobotanical plants of East Asia specific to Shanghai. Students were children and their caretakers. Researched Japanese and Chinese differences in ethnobotanical and landscape use, especially in parks and communities.
+---
 
-Designed verandas and entranceways with ethnobotanical plants, green walls, and aquaponics systems focusing on recycling and reusing local resources and local refuse materials.
+## Ethnobotanical Plant Educator & Landscape Designer
+**Shanghai PI Cultural Exchange, Shanghai, China** | Jun 2019 – Aug 2019
 
-## 4/2016 -- 6/2019: Chiba University, Matsudo City, Chiba Prefecture. **Part-time Lecturer, Research Asst. & T.A.**
+- Taught weekly classes at community centers and libraries on East Asian ethnobotanical plants (students: children and caretakers)
+- Researched Japanese and Chinese differences in ethnobotanical and landscape use, focusing on parks and communities
+- Designed verandas and entranceways featuring ethnobotanical plants, green walls, and aquaponics systems using recycled local resources
 
-Continued lectures for a master's level course in English Presentation Skills.
+---
 
-In charge of English House Matsudo, a weekly English-speaking hour.
+## Part-time Lecturer, Research Assistant & Teaching Assistant
+**Chiba University, Matsudo City, Chiba Prefecture** | Apr 2016 – Jun 2019
 
-Teaching English weekly lessons one-on-one to university students and visiting professors.
+**Teaching & Academic Support**
+- Lectured master's-level English Presentation Skills course
+- Directed English House Matsudo, a weekly English-speaking hour
+- Delivered one-on-one English lessons to university students and visiting professors
+- Served as T.A. and co-organizer for the JICA Project Management Course (3 years)
+- Edited English handouts, pamphlets, books, promotional materials, and letters for university staff and faculty
+- Recorded voice-over for Chiba University Matsudo Campus promotional video
+- Supported laboratory and student projects across disciplines
 
-T.A. and co-organizer for graduate student Project Management Course taught by JICA, 3 years.
+**Community Engagement**
+- Organized and promoted bimonthly jazz music events, community connection events, and skills workshops
+- Performed as M.C. and singer at the annual International Students' Association Holiday Party
 
-Edit English handouts, pamphlets, books, promotional materials, and letters for university staff and faculty.
+**Landscape Design, Landscape Planning & Community Development**
+- Facilitated Machizukuri (bottom-up community planning) in Matsudo, Izu, and Kambara: interviews, questionnaires, collaboration with local people, schools, and government entities
+- (2017) Documented and mapped botanicals in a traditional Japanese garden in Kambara as part of a team
+- (2015–2020) Identified ethnobotanical plants in Nogiku (Matsudo City) and researched landscape-community integration
+- (2014–2015) Facilitated Machizukuri workshops in Irouzaki; contributed to the final General Plan design; built landscape models; sketched plans; identified ethnobotanical elements; authored an ethnobotanical book for local residents
+- Collaborated on community improvement events: Iwase seminars, translation/interpretation for guest speakers, ethnobotanical education presentations
+- Taught Ethnobotanical Sumi-E (traditional Japanese watercolor) to university students and Matsudo residents
+- Delivered volunteer environmental ethnobotanical education for Matsudo City residents (invited special event)
 
-Organize, promote, and accomplish bimonthly Jazz music events, community connection events, and skills workshops.
+---
 
-M.C. and singer at the annual Holiday Party for International Students' Association.
+## Part-time University Lecturer & Elementary School Native English Teacher
+**Seitoku University & Seitoku Elementary School, Matsudo City, Chiba Pref.** | Feb 2015 – Mar 2016
 
-Voice-over recording for Chiba University Matsudo Campus promotional video.
+**University Lecturer**
+- Designed curriculum, delivered all lessons, and evaluated students for a year-long English program
 
-Volunteer support and participation in the laboratory and student projects from various labs (varied disciplines).
+**Elementary School Teacher**
+- Designed curriculum and materials; taught collaboratively with a team of four teachers
 
-### Specific to Landscape Design, Landscape Planning, and Community Development:
+---
 
-- Machizukuri (Bottom-up community planning) assistant and facilitator for various communities in Matsudo, Izu, and Kambara. Work included interviews, questionnaires and working with local people, schools, and governmental entities.
+## Native English Teacher
+**Waseda Saga Gakuen, Karatsu City, Saga Prefecture** | Apr 2011 – Mar 2014
 
-- (2017) Documented and mapped existing botanicals in a traditional Japanese garden in Kambara in a team.
+**Teaching**
+- Taught EFL to junior and senior high school students across three class types: Advanced English, team teaching, and ESS Club
+- Delivered ESL instruction to returnees and advanced learners in AP English
+- Designed AP curriculum: Critical Thinking, poetry, literature, literary elements, mistake analysis, essay writing, TOEFL iBT strategies, Philosophy, English history, typing, and vocabulary/grammar through film and literature
+- Conducted English teaching seminars for Japanese English teachers
+- Coached students in speech and presentation skills
+- Advised English teachers on high-level grammar questions
+- Delivered student-requested special lessons
 
-- (2015-2020) Identified ethnobotanical plants in Nogiku (Matsudo City) and researched the landscape and local social integration with it.
+**English Club Leadership**
+- Directed club activities: standardized test training (TOEIC, TOEFL, Eiken), yoga in English, dance, drama, teamwork, video editing, Basic Spanish, English conversation, learning techniques through books and movies, and pen pal correspondence
 
-- (2014-2015) Was a Machizukuri workshop facilitator in Irouzaki and assisted in creating the final design for the area General Plan. Built several landscape models, sketched plans, and identified existing and necessary ethnobotanical elements. Created an ethnobotanical book for local people.
+**School Contributions**
+- Mentored students and supported the school nurse's room (Health and Mentorship Committee): nursing, emergency judgment, coworker coordination, Japanese paperwork, and student counseling
+- Contributed to the English Teachers' Weekly Meeting: textbook selection, standardized tests, scheduling, and procedural decisions
+- Managed daily student cleaning groups, directing three teams across campus
 
-- Collaborated and assisted at various local events and activities for community improvement, such as Iwase community improvement seminars, translation and interpretation for guest speakers, taught the traditional charcoal watercolor Sumi-E to Iwase locals, did ethnobotanical education slide presentations, and other activities.
+**Key Accomplishments**
+- Trained students one-on-one who won 1st Place in prefectural speech contests all three years; some advanced to nationals
+- Blind survey confirmed AP English Class students' enjoyment and unique learning gains
 
-- Taught an Ethnobotanical Sumi-E class of traditional Japanese watercolor to university students and residents in Matsudo.
+---
 
-- Volunteer environmental Ethnobotanical education for Matsudo City residents (Invited, special event).
+## ALT
+**KBS Inc., Saga City, Saga Prefecture** | Aug 2010 – Mar 2011
 
-## 2/2015 to 3/2016: Seitoku University & Seitoku Elementary School, Matsudo City, Chiba Pref. **Part-time University Lecturer & Elementary School Native English Teacher.**
+- Taught EFL in elementary and junior high schools
+- Collaborated with teachers to deliver textbook-based lessons tailored to diverse learning styles and needs
 
-University Lecturer -- Designed curriculum, taught all lessons, and did evaluation for a Japanese university-level, year-long set of English classes.
+---
 
-Elementary School Teacher -- Designed curriculum, made materials, and taught in a group of four teachers.
+## ALT
+**Interac Company, Miyazaki Prefecture** | Apr 2009 – Jul 2010
 
-## 4/2011 to 3/2014: Waseda Saga Gakuen, Karatsu City, Saga Prefecture. **Native English Teacher.**
+- Taught EFL in preschool, elementary, and junior high schools using games, multimedia, student creativity, and realia
 
-Three types of classes: Advanced English, team teaching, and ESS Club. Also, did student-requested special lessons.
+---
 
-Taught junior and senior high school students English as a Foreign Language (EFL).
+## Preschool Teacher
+**Kid's Dream, Sasaguri, Fukuoka Prefecture** | Jan 2009 – Apr 2009
 
-Taught English and English as a Second Language (ESL) to returnees and advanced English learners in AP English.
+- Taught English to babies and young children using flashcards, games, activities, and realia
+- Guided infants through eating and sleeping routines with gentle techniques, chants, and songs
 
-Designed AP lessons and curriculum for advanced learners. Included: Critical Thinking, poetry, literature, literary elements, mistake analysis, essay writing, TOEFL iBT strategies, Philosophy, English history, typing, and teaching vocabulary and grammar through film and literature.
+---
 
-Did seminars in English Teaching for English Teachers of Japan.
+## Owner/Teacher
+**Sofia's Language School, Puerto Vallarta, Mexico** | Oct 2007 – Oct 2008
 
-Trained students in speech and presentation.
+- Founded and operated a language school
+- Taught English, Spanish, and beginning Japanese to community members and business professionals
 
-Helped English Teachers with high-level English Grammar questions.
+---
 
-Responsible for the English club and the design of their activities. Included: training students in standardized tests such as TOEIC, TOEFL, and Eiken, yoga in English, dance, drama, teamwork, video editing, Basic Spanish, English conversation, simple techniques for learning English from books and movies, and organizing pen pal letter correspondence.
+## ALT
+**JET Programme, Kurume City, Fukuoka Prefecture** | Jul 2004 – Jul 2007
 
-Mentored students and helped in the school nurse's room as part of the Health and Mentorship Committee. Included: nursing students, making judgments on health and emergencies, contacting coworkers, filling in basic paperwork in Japanese, and counseling students.
+- Taught EFL in junior high and elementary schools
+- Designed lesson plans aligned with textbook content, grammar points, and student learning levels
+- Team-taught weekly with junior high school teachers
+- Created handmade materials for all English lessons: games, phonics, and language pattern exercises
+- Contributed to ALT training sessions on TEFL and other subjects
+- Taught evening classes for adult language learners
+- Occasionally taught Spanish
 
-Took part in the English Teachers' Weekly Meeting and offered up ideas. Helped to select textbooks, standardized tests, items, schedules, and deciding general procedures.
+---
 
-Managed several groups of students at once for tasks such as cleaning. Organized and directed three groups of energetic teenagers to clean various areas around the campus every school day.
+## Mural Painter
+**El Togoroz Restaurant, Petaluma, CA** | Oct 2003 – May 2004
 
-### Special Accomplishments:
+- Negotiated, planned, and executed a restaurant-length mural depicting national symbols of El Salvador: a volcano and the Turquoise-Browed Motmot
 
-Students, trained one-on-one, won 1st Place in prefectural speech contests all three years, some progressing nationally.
+---
 
-A blind survey of the AP English Class demonstrated enjoyment and learning of unique things.
+## Environmental Health Inspector
+**County of Monterey Environmental Health Dept, Monterey, CA** | Jul 2002 – Jul 2003
 
-## 8/2010 to 03/2011: KBS Inc., Saga City, Saga Prefecture. **ALT.**
+- Reviewed building plans with the planning department to ensure environmental compliance
+- Inspected businesses for adherence to Environmental Health laws
+- Assessed homes and land for septic and well water safety
+- Tested wastewater at a treatment plant for potential agricultural reuse as part of a research team
 
-Taught English as a Foreign Language (EFL) in elementary and junior high schools.
+---
 
-Worked with teachers to teach using the textbook while addressing different learning styles and needs.
+## Green Building Designer
+**Sustainable Monterey Bay, Santa Cruz, CA** | Mar 2002 – Jul 2002 (Volunteer)
 
-## 4/2009 to 7/2010: Interac Company, Miyazaki Prefecture. **ALT.**
+- Designed 4- to 40-unit apartment complexes incorporating lofts, wet core systems, community areas, space constraints, and green roofs
 
-Taught EFL in preschool, elementary, and junior high schools: games, multimedia, student creativity, realia, etc.
+---
 
-## 01/2009 to 04/2009: Kid's Dream, Sasaguri, Fukuoka Prefecture. **Preschool Teacher.**
+## Quality Assurance Supervisor
+**Mann Packing Company, Salinas, CA** | Feb 2002 – Apr 2002
 
-Taught English to babies as a preschool teacher. Coaxed babies into eating and sleeping through gentle guidance, chants, and songs. Taught older children through flashcards, games, activities, and realia.
+- Designed technician forms for personal safety, compliance, Quality Control, food safety (temperature, handling, defects, appearance), and Good Manufacturing Practices
+- Observed, documented, and guided factory workers using Word, Excel, and bilingual (Spanish/English) proficiency
 
-## 10/2007 to 10/2008: Sofia's Language School, Puerto Vallarta, Mexico. **Owner/Teacher.**
+---
 
-Taught English, Spanish and beginning Japanese to community members and Spanish to business people from abroad.
+## Chemical Control Intern
+**City of Gilroy Chemical Control, Gilroy, CA** | May 2001 – Feb 2002
 
-## 07/2004 to 07/2007: JET Programme, Kurume City, Fukuoka Prefecture. **ALT.**
+- Authored the OSHA-compliant Injury and Illness Prevention Program tailored to City needs
+- Investigated environmental impact and responsible parties through groundwater, sewage flow, and topographical analysis
+- Observed and assisted regulatory program inspections
+- Provided customer service and resolved conflicts between business owners
+- Designed brochures and an inspection records user handbook; performed data entry
+- Translated during regulatory inspections (Spanish/English) and translated forms, documents, and conversations as needed
+- Wrote reports, letters, and permit conditions using accounting, data management, and regulatory research
 
-Taught English as a Foreign Language (TEFL) in junior high and elementary schools.
+---
 
-Designed junior high school lesson plans (considered the text, grammar points, and current learning level).
+## Environmental Specialist
+**ATC Environmental Consulting, Monterey, CA** | Jun 2000 – May 2001
 
-Team-taught weekly, communicating smoothly and teaching effectively with junior high school teachers.
+- Inspected residences, businesses, and factories for environmental issues
+- Collected and submitted air, soil, and building material samples to labs
+- Authored environmental reports based on analysis and remediation requirements
+- Advised clients on best practices for tanks and toxic materials
+- Analyzed geothermal heating, wells, and septic systems relative to planned and existing structures
 
-Designed and provided handmade materials for all English lessons: games, phonics, language patterns, etc.
+---
 
-Volunteer participation in making fun lessons for ALT training at meetings in various subjects, including TEFL.
+## Waitress
+**Papa's Taverna, Petaluma, CA** | Sep 1999 – Nov 1999
 
-Taught night classes to adult language learners.
+- Served groups of 20–40 guests in a high-energy Greek restaurant and bar
 
-Sometimes taught Spanish.
+---
 
-## 10/2003 to 05/2004: El Togoroz Restaurant, Petaluma, CA. **Mural Painter.**
+## ESL Aide
+**Liberty Elementary School District, Petaluma, CA** | Jan 1999 – Nov 1999
 
-Negotiated, planned, and painted a mural the entire length of the restaurant in national symbols of the country of El Salvador: a volcano and the Turquoise-Browed Motmot (a bird).
+- Taught English, math, and science to 4th-grade ESL students in groups and one-on-one
+- Taught Spanish to the 4th-grade class
+- Translated documents and provided oral interpretation during meetings
 
-## 07/2002 to 07/2003: County of Monterey Environmental Health Dept, Monterey, CA. **Environmental Health Inspector.**
+---
 
-Worked with the planning department to review building plans to make sure that new buildings or alterations met environmental requirements.
+## Sushi Chef and Waitress
+**Yao Kiku, Santa Rosa, CA** | Aug 1998 – Dec 1998
 
-Inspected various businesses for proper compliance with Environmental Health laws.
+- Served customers and prepared elegant dishes under the guidance of the Japanese chef/owner
 
-Inspected homes and land regarding septic and well water safety issues.
+---
 
-Tested wastewater at a treatment plant for possible secondary use in agriculture as part of a research team.
+## Private Spanish Tutor
+**Client: Scott Whittaker, Rohnert Park, CA** | Mar 1998 – Jun 1998
 
-## 03/2002 to 07/2002: Sustainable Monterey Bay, Santa Cruz, CA. **Green Building Designer.**
+- Coached a professional musician in Spanish and Cuban music styles for salsa band performances
 
-Designed 4 to 40-unit apartment complexes for a non-profit organization.
+---
 
-Some parameters included lofts, wet core incorporation, community areas, space limitations, and green roofs. (Unpaid volunteer position)
+## English Teacher & ESL Tutor
+**SSALI at Sonoma State University, Rohnert Park, CA** | May 1998 – Aug 1998
 
-## 02/2002 to 04/2002: Mann Packing Company, Salinas, CA. **Quality Assurance Supervisor.**
+- Instructed international students in English pronunciation, grammar, reading, and communication
+- Organized outings and supported students in English language acquisition (volunteer)
 
-Designed new forms for technician use regarding personal safety, compliance with rules, Quality Control, food safety (temperature, handling, defects, and appearance), and other Good Manufacturing Practices.
+---
 
-Used Word, Excel, and bi-literate (Spanish / English) proficiencies to observe, document, and provide guidance to factory workers in the plant.
+## Costume Designer and Seamstress
+**Sonoma State University Costume Shop, Rohnert Park, CA** | Feb 1998 – Jun 1998
 
-## 05/2001 to 02/2002: City of Gilroy Chemical Control, Gilroy, CA. **Chemical Control Intern.**
-
-Wrote the Injury and Illness Prevention Program to OSHA compliance and specific to the City's needs.
-
-Studied environmental impact and investigated responsible parties by analyzing possibilities such as groundwater or sewage flow on land parcels and topographical maps.
-
-Assistance and observation of various regulatory program inspections.
-
-Customer service and conflict resolution between business owners.
-
-Designed new brochures and new inspection records users' handbook and did data entry of the completed forms.
-
-Translated during regulatory inspections from Spanish to English and vice versa.
-
-When necessary, translated forms, documents, and conversations into Spanish.
-
-Wrote reports, letters, and permit conditions using accounting, data management, and regulations research and analysis.
-
-## 06/2000 to 05/2001: ATC, Environmental Consulting, Monterey, CA. **Environmental Specialist.**
-
-Inspected private residences, businesses, and factories for environmental issues.
-
-Sampled air, soil, and building materials and sent environmentally sensitive samples to the lab.
-
-Wrote environmental reports based on environmental analysis and remediation requirements.
-
-Advised good business practices concerning tanks and toxic materials.
-
-Analyzed geothermal heating, wells, and septic systems' topography and distances to planned and existing buildings.
-
-## 09/1999 to 11/1999: Papa's Taverna, Petaluma, CA. **Waitress.**
-
-Served large groups of 20 to 40 people in a busy Greek restaurant bar amidst boisterous music and dancing.
-
-## 01/1999 to 11/1999: Liberty Elementary School District, Petaluma, CA. **ESL Aid.**
-
-Taught English, math, and science to ESL students in 4th grade in groups and one-on-one. Taught Spanish to the 4th-grade class. Translated documents and performed oral translation during large and small meetings.
-
-## 08/1998 to 12/1998: Yao Kiku, Santa Rosa, CA. **Sushi Chef and Waitress.**
-
-Welcomed and waited on customers and made elegant food under the guidance of the Japanese chef/owner.
-
-## 03/1998 to 06/1998: Client: Scott Whittaker, Rohnert Park, CA. **Private Spanish Tutor.**
-
-Taught Spanish and Cuban music styles to a professional musician for his singing in a salsa band.
-
-## 05/1998 to 08/1998: SSALI At Sonoma State University, Rohnert Park, CA. **English Teacher, ESL Tutor.**
-
-Instructed international students in English pronunciation, grammar, reading, and communication.
-
-Volunteered, inviting international students on outings and aided them in learning English.
-
-## 02/1998 to 06/1998: Sonoma State University Costume Shop, Rohnert Park, CA. **Costume Designer and Seamstress.**
-
-Designed, sewed, tailored, and altered costumes.
+- Designed, sewed, tailored, and altered costumes for university productions
