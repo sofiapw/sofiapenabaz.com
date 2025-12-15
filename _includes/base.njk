@@ -329,9 +329,10 @@
       header {
         background: none;
         color: var(--color-primary);
-        padding: 0 0 0.3cm 0;
-        margin-bottom: 0.3cm;
+        padding: 0 0 0.2cm 0;
+        margin-bottom: 0.2cm;
         border-bottom: 1.5pt solid var(--color-primary);
+        page-break-after: avoid;
       }
 
       header::after {
@@ -340,7 +341,7 @@
 
       header h1 {
         font-size: 16pt;
-        margin-bottom: 0;
+        margin-bottom: 0.05cm;
         text-shadow: none;
         color: var(--color-primary);
       }
@@ -350,7 +351,8 @@
         color: #444;
         text-transform: none;
         letter-spacing: 0.05em;
-        margin-top: 0.1cm;
+        margin-top: 0.05cm;
+        margin-bottom: 0;
       }
 
       /* Remove decorative elements */
@@ -364,8 +366,13 @@
 
       /* Compact section spacing */
       section {
-        padding: 0.3cm 0;
+        padding: 0.25cm 0;
         border-bottom: 0.5pt solid #ddd;
+      }
+
+      section:first-of-type {
+        padding-top: 0;
+        page-break-before: avoid;
       }
 
       section:last-child {
@@ -443,10 +450,6 @@
       }
 
       /* Page break control */
-      section {
-        break-inside: avoid-page;
-      }
-
       h1, h2, h3 {
         break-after: avoid-page;
       }
