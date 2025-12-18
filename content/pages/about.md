@@ -5,10 +5,6 @@ modified: 2025-12-01
 permalink: /about/
 ---
 
-# About
-
-![](/media/posts/110/dummy-1.jpg)
-
 # About Me
 
 I am half Cuban and live between Mexico, Japan, and the US. Most of my close relatives live in Mexico, so that's where I am currently based, but I teach university classes to landscape students in Japan. I attained a PhD in spacial planning and environmental engineering while living there for many years. My PhD focused on how we can use ethnobotanical plants to connect with nature and create a positive future for all life on Earth. Actually, I had wanted to get my degree in green roofs, and have been designing green building and landscape systems since I was 16. However, since there wasn't that option at my lab, this is what I researched. It was fun.

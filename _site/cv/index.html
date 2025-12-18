@@ -35,41 +35,8 @@
       -webkit-font-smoothing: antialiased;
     }
     .container { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
-    header.page-header {
-      background: linear-gradient(165deg, var(--color-forest) 0%, var(--color-moss) 60%, var(--color-sage) 100%);
-      padding: 4rem 2rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    header.page-header::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background:
-        radial-gradient(ellipse at 20% 80%, rgba(255,255,255,0.08) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 20%, rgba(255,255,255,0.05) 0%, transparent 40%);
-      pointer-events: none;
-    }
-    header.page-header h1 {
-      font-family: var(--font-display);
-      font-size: clamp(2rem, 5vw, 2.75rem);
-      font-weight: 500;
-      color: var(--color-warm-white);
-      letter-spacing: -0.01em;
-      margin-bottom: 0.5rem;
-      position: relative;
-      z-index: 1;
-    }
-    header.page-header p {
-      font-family: var(--font-accent);
-      font-size: 1.15rem;
-      color: var(--color-mist);
-      font-style: italic;
-      letter-spacing: 0.02em;
-      position: relative;
-      z-index: 1;
-    }
+
+    /* Main Navigation - matches base.njk */
     nav {
       background: var(--color-warm-white);
       padding: 1.25rem 2rem;
@@ -86,6 +53,9 @@
       list-style: none;
       max-width: 900px;
       margin: 0 auto;
+    }
+    nav > ul > li {
+      position: relative;
     }
     nav a {
       font-family: var(--font-body);
@@ -111,10 +81,99 @@
     }
     nav a:hover { color: var(--color-forest); }
     nav a:hover::after { width: 100%; }
+
+    /* Dropdown Menu */
+    .dropdown {
+      position: relative;
+    }
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--color-warm-white);
+      border: 1px solid var(--color-mist);
+      border-radius: 4px;
+      box-shadow: 0 4px 12px rgba(44, 74, 62, 0.1);
+      padding: 0.5rem 0;
+      min-width: 200px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s ease, visibility 0.2s ease;
+      z-index: 200;
+      margin-top: 0.5rem;
+    }
+    .dropdown:hover .dropdown-menu {
+      opacity: 1;
+      visibility: visible;
+    }
+    .dropdown-menu li {
+      list-style: none;
+      margin: 0;
+    }
+    .dropdown-menu a {
+      display: block;
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: none;
+      white-space: nowrap;
+    }
+    .dropdown-menu a::after {
+      display: none;
+    }
+    .dropdown-menu a:hover {
+      background: var(--color-mist);
+    }
+
+    /* Page Header - matches base.njk */
+    header.page-header {
+      background: linear-gradient(165deg, var(--color-forest) 0%, var(--color-moss) 60%, var(--color-sage) 100%);
+      padding: 4rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header.page-header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background:
+        radial-gradient(ellipse at 20% 80%, rgba(255,255,255,0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(255,255,255,0.05) 0%, transparent 40%);
+      pointer-events: none;
+    }
+    header.page-header h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 500;
+      color: var(--color-warm-white);
+      letter-spacing: -0.01em;
+      margin-bottom: 0.5rem;
+      position: relative;
+      z-index: 1;
+      border-bottom: none;
+      padding-bottom: 0;
+      display: block;
+    }
+    header.page-header p {
+      font-family: var(--font-accent);
+      font-size: 1.15rem;
+      color: var(--color-mist);
+      font-style: italic;
+      letter-spacing: 0.02em;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* CV Sub-navigation */
     nav.cv-nav {
       background: var(--color-cream);
       border-bottom: 1px solid var(--color-mist);
       padding: 1rem 2rem;
+      position: sticky;
+      top: 58px;
+      z-index: 99;
     }
     nav.cv-nav ul { gap: 0.25rem 1.5rem; }
     nav.cv-nav a {
@@ -123,6 +182,7 @@
       letter-spacing: 0.08em;
     }
     nav.cv-nav a:hover { color: var(--color-forest); }
+
     main {
       background: var(--color-warm-white);
       box-shadow: 0 2px 30px rgba(44, 74, 62, 0.06);
@@ -132,9 +192,12 @@
     section {
       padding: 2.5rem 3rem;
       border-bottom: 1px solid var(--color-mist);
+      scroll-margin-top: 130px;
     }
     section:last-child { border-bottom: none; }
-    h1 {
+
+    /* Section headings (h1 within content) */
+    main h1 {
       font-family: var(--font-display);
       font-size: 1.6rem;
       font-weight: 500;
@@ -153,7 +216,7 @@
       margin-bottom: 0.75rem;
       line-height: 1.4;
     }
-    section > h2:first-child, h1 + h2 { margin-top: 0; }
+    section > h2:first-child, main h1 + h2 { margin-top: 0; }
     h3 {
       font-family: var(--font-accent);
       font-size: 1rem;
@@ -193,14 +256,14 @@
       header.page-header h1 { font-size: 1.75rem; }
       nav ul { gap: 0.25rem 1.5rem; }
       nav a { font-size: 0.75rem; }
-      nav.cv-nav { padding: 0.75rem 1rem; }
+      nav.cv-nav { padding: 0.75rem 1rem; top: 45px; }
       nav.cv-nav a { font-size: 0.65rem; }
-      section { padding: 2rem 1.5rem; }
-      h1 { font-size: 1.4rem; }
+      section { padding: 2rem 1.5rem; scroll-margin-top: 100px; }
+      main h1 { font-size: 1.4rem; }
       body { font-size: 16px; }
     }
     @media print {
-      nav, footer { display: none; }
+      nav, nav.cv-nav, footer { display: none !important; }
       :root {
         --color-forest: #1a3c34;
         --color-moss: #2d5a4a;
@@ -220,17 +283,33 @@
       header.page-header {
         background: none !important;
         color: var(--color-forest);
-        padding: 0 0 0.15cm 0;
-        margin-bottom: 0.15cm;
-        border-bottom: 1.5pt solid var(--color-forest);
+        padding: 0 !important;
+        margin: 0 0 0.2cm 0 !important;
+        border-bottom: 1pt solid var(--color-forest);
+        break-after: avoid !important;
+        break-inside: avoid !important;
+        page-break-after: avoid !important;
+        page-break-inside: avoid !important;
       }
       header.page-header::before { display: none; }
-      header.page-header h1 { font-size: 14pt; margin-bottom: 0; color: var(--color-forest); }
-      header.page-header p { font-size: 9pt; color: #444; font-style: normal; margin-top: 0.05cm; margin-bottom: 0; }
+      header.page-header h1 {
+        font-size: 14pt;
+        margin: 0 !important;
+        padding: 0 !important;
+        color: var(--color-forest);
+        display: inline;
+      }
+      header.page-header p {
+        font-size: 10pt;
+        color: #444;
+        font-style: normal;
+        margin: 0 0 0.1cm 0 !important;
+        display: block;
+      }
       section { padding: 0.2cm 0; border-bottom: 0.5pt solid #ddd; }
       section:first-of-type { padding-top: 0; }
       section:last-child { border-bottom: none; }
-      h1 { font-size: 11pt; color: var(--color-forest); margin-bottom: 0.2cm; padding-bottom: 0.08cm; border-bottom: 1pt solid var(--color-forest); }
+      main h1 { font-size: 11pt; color: var(--color-forest); margin-bottom: 0.2cm; padding-bottom: 0.08cm; border-bottom: 1pt solid var(--color-forest); }
       h2 { font-size: 9.5pt; color: #000; margin-top: 0.2cm; margin-bottom: 0.08cm; }
       h3 { font-size: 8.5pt; color: #333; margin-top: 0.15cm; margin-bottom: 0.08cm; font-style: normal; }
       p, li { font-size: 8.5pt; margin-bottom: 0.05cm; font-weight: 400; }
@@ -242,7 +321,7 @@
       a[href^="https://doi.org"]::after { content: none; }
       strong { color: #000; font-weight: 600; }
       em { color: #333; }
-      h1, h2, h3 { break-after: avoid-page; }
+      main h1, h2, h3 { break-after: avoid-page; }
       section { break-inside: avoid; }
       p { orphans: 3; widows: 3; }
       @page { margin: 1.2cm 1.2cm 1.2cm 1.2cm; size: letter; }
@@ -252,21 +331,28 @@
 </head>
 <body>
 
-<header class="page-header">
-  <h1>Sofia Penabaz-Wiley, Ph.D.</h1>
-  <p>Curriculum Vitae</p>
-</header>
-
 <nav>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="/about/">About</a></li>
     <li><a href="/cv/">CV</a></li>
-    <li><a href="/services/">Services</a></li>
+    <li class="dropdown">
+      <a href="/services/">Services</a>
+      <ul class="dropdown-menu">
+        <li><a href="/services/paper-editing/">Paper Editing</a></li>
+        <li><a href="/services/tarot/">Tarot Reading</a></li>
+        <li><a href="/services/tarot-jp/">タロット占い</a></li>
+      </ul>
+    </li>
     <li><a href="/blog/">Blog</a></li>
     <li><a href="/contact/">Contact</a></li>
   </ul>
 </nav>
+
+<header class="page-header">
+  <h1>Sofia Penabaz-Wiley, Ph.D.</h1>
+  <p>Curriculum Vitae</p>
+</header>
 
 <nav class="cv-nav">
   <ul>
