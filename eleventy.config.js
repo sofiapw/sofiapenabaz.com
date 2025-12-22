@@ -39,6 +39,9 @@ module.exports = function(eleventyConfig) {
   // Watch for changes in content files
   eleventyConfig.addWatchTarget("./content/**/*.md");
 
+  // Copy media folder to output (for blog post images)
+  eleventyConfig.addPassthroughCopy("media");
+
   // Ignore the CV markdown files (they're included via shortcode)
   eleventyConfig.ignores.add("./content/cv/*.md");
 
