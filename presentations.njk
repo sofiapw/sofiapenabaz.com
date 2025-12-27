@@ -1,0 +1,365 @@
+---
+title: Presentations - Sofia Penabaz-Wiley
+updated: December 2024
+permalink: /presentations/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Cormorant:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-forest: #2c4a3e;
+      --color-moss: #4a6d5c;
+      --color-sage: #7d9b8a;
+      --color-fern: #9bb5a5;
+      --color-mist: #d4e4db;
+      --color-cream: #faf9f7;
+      --color-warm-white: #fffffe;
+      --color-bark: #5c4d3c;
+      --color-stone: #6b6b6b;
+      --color-text: #3a3a3a;
+      --color-text-soft: #666666;
+
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'Source Sans 3', -apple-system, sans-serif;
+      --font-accent: 'Cormorant', Georgia, serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--color-text);
+      background: var(--color-cream);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Navigation */
+    nav {
+      background: var(--color-warm-white);
+      padding: 1.25rem 2rem;
+      border-bottom: 1px solid var(--color-mist);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      list-style: none;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    nav a {
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--color-stone);
+      text-decoration: none;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.25rem 0;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    nav a::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--color-moss);
+      transition: width 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--color-forest);
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    /* Page Header */
+    .page-header {
+      background: linear-gradient(165deg, var(--color-forest) 0%, var(--color-moss) 60%, var(--color-sage) 100%);
+      padding: 4rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .page-header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background:
+        radial-gradient(ellipse at 20% 80%, rgba(255,255,255,0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(255,255,255,0.05) 0%, transparent 40%);
+      pointer-events: none;
+    }
+
+    .page-header h1 {
+      font-family: var(--font-display);
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: var(--color-warm-white);
+      letter-spacing: -0.01em;
+      margin-bottom: 0.5rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .page-header p {
+      font-family: var(--font-accent);
+      font-size: 1.1rem;
+      color: var(--color-mist);
+      font-style: italic;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Main Content */
+    .presentations-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 3rem 2rem 5rem;
+    }
+
+    /* Year Section */
+    .year-section {
+      margin-bottom: 3rem;
+    }
+
+    .year-title {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--color-forest);
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--color-sage);
+      display: inline-block;
+    }
+
+    /* Presentation Cards */
+    .presentation-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .presentation-card {
+      background: var(--color-warm-white);
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 2px 20px rgba(44, 74, 62, 0.06);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .presentation-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 30px rgba(44, 74, 62, 0.1);
+    }
+
+    .presentation-card-content {
+      padding: 1.5rem 2rem;
+    }
+
+    .presentation-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 500;
+      line-height: 1.3;
+      margin-bottom: 0.5rem;
+    }
+
+    .presentation-card h3 a {
+      color: var(--color-forest);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .presentation-card h3 a:hover {
+      color: var(--color-moss);
+    }
+
+    .presentation-meta {
+      font-family: var(--font-accent);
+      font-size: 0.95rem;
+      color: var(--color-stone);
+      font-style: italic;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .presentation-meta::before {
+      content: '';
+      width: 20px;
+      height: 1px;
+      background: var(--color-sage);
+    }
+
+    .view-slides {
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--color-moss);
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      transition: color 0.2s ease;
+    }
+
+    .view-slides:hover {
+      color: var(--color-forest);
+    }
+
+    .view-slides svg {
+      width: 14px;
+      height: 14px;
+      transition: transform 0.2s ease;
+    }
+
+    .view-slides:hover svg {
+      transform: translateX(3px);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 3rem 2rem;
+      color: var(--color-stone);
+      font-size: 0.85rem;
+      font-family: var(--font-accent);
+      font-style: italic;
+      background: var(--color-cream);
+      border-top: 1px solid var(--color-mist);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav ul {
+        gap: 1.5rem;
+      }
+
+      nav a {
+        font-size: 0.75rem;
+      }
+
+      .page-header {
+        padding: 3rem 1.5rem;
+      }
+
+      .page-header h1 {
+        font-size: 2rem;
+      }
+
+      .presentations-container {
+        padding: 2rem 1rem 3rem;
+      }
+
+      .presentation-card-content {
+        padding: 1.25rem 1.5rem;
+      }
+
+      .presentation-card h3 {
+        font-size: 1.1rem;
+      }
+
+      body {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/cv/">CV</a></li>
+      <li><a href="/services/">Services</a></li>
+      <li><a href="/presentations/">Presentations</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="page-header">
+    <h1>Presentations</h1>
+    <p>Talks and slide decks</p>
+  </header>
+
+  <main class="presentations-container">
+    {%- set currentYear = "" -%}
+    {%- for pres in collections.presentations -%}
+      {%- if pres.year != currentYear -%}
+        {%- if currentYear != "" -%}
+      </div>
+    </section>
+        {%- endif -%}
+        {%- set currentYear = pres.year -%}
+    <section class="year-section">
+      <h2 class="year-title">{{ currentYear }}</h2>
+      <div class="presentation-list">
+      {%- endif -%}
+        <article class="presentation-card">
+          <div class="presentation-card-content">
+            <h3><a href="{{ pres.url }}">{{ pres.title }}</a></h3>
+            <div class="presentation-meta">
+              <span>{{ pres.date | date("F j, Y") }}{% if pres.venue %} · {{ pres.venue }}{% endif %}</span>
+            </div>
+            <a href="{{ pres.url }}" class="view-slides">
+              View slides
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+    {%- endfor -%}
+    {%- if currentYear != "" -%}
+      </div>
+    </section>
+    {%- endif -%}
+
+    {%- if collections.presentations.length == 0 -%}
+    <p style="text-align: center; color: var(--color-stone); font-style: italic;">No presentations yet.</p>
+    {%- endif -%}
+  </main>
+
+  <footer>
+    <p>&copy; {{ "now" | date("Y") }} Sofia Penabaz-Wiley</p>
+  </footer>
+</body>
+</html>

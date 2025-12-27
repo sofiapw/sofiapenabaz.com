@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Art &amp; Science of Flower Pressing - Sofia Penabaz-Wiley</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+  <style>
+    /* ═══════════════════════════════════════════════════════════════
+       GREENCASTLE BRAND SYSTEM
+       A botanical-naturalist design for environmental education
+       "Where science meets soul, and nature meets craft"
+    ═══════════════════════════════════════════════════════════════ */
+
+    :root {
+      /* Core Palette */
+      --botanical-green: #3D5A3D;
+      --sienna: #8B5A2B;
+      --terracotta: #C75B3A;
+      --parchment: #F8F5F0;
+      --warm-sand: #E8E0D5;
+      --stone: #5C574F;
+      --clay: #C4B8A8;
+      --charcoal-earth: #2D2A26;
+
+      /* Accent Variations */
+      --soft-green: #6B8E6B;
+      --dusty-purple: #6B4C7A;
+      --warm-cream: #F5EDE3;
+      --deep-forest: #2E4A2E;
+
+      /* Typography */
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       BASE REVEAL OVERRIDES
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal-viewport {
+      background: linear-gradient(135deg, var(--parchment) 0%, var(--warm-cream) 50%, var(--warm-sand) 100%);
+    }
+
+    .reveal {
+      font-family: var(--font-body);
+      font-size: 32px;
+      color: var(--stone);
+    }
+
+    .reveal .slides {
+      text-align: center;
+    }
+
+    .reveal .slides section {
+      padding: 40px 50px 40px 60px;
+      height: 100%;
+      box-sizing: border-box;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       DECORATIVE ACCENT BAR (Left side) - Only on parent slides
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal .slides > section::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 10px;
+      background: linear-gradient(
+        180deg,
+        var(--botanical-green) 0%,
+        var(--soft-green) 30%,
+        var(--sienna) 70%,
+        var(--terracotta) 100%
+      );
+      box-shadow: 2px 0 20px rgba(61, 90, 61, 0.15);
+    }
+
+    /* Remove accent bar from nested vertical slides */
+    .reveal .slides > section > section::before {
+      display: none;
+    }
+
+    /* Subtle corner accent - only on parent slides */
+    .reveal .slides > section::after {
+      content: '';
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      border-top: 2px solid var(--clay);
+      border-right: 2px solid var(--clay);
+      opacity: 0.5;
+    }
+
+    .reveal .slides > section > section::after {
+      display: none;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       TYPOGRAPHY
+    ═══════════════════════════════════════════════════════════════ */
+
+    /* H1 - Page titles, hero text */
+    .reveal h1 {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 2.4em;
+      color: var(--botanical-green);
+      line-height: 1.1;
+      margin-bottom: 0.4em;
+      letter-spacing: -0.02em;
+    }
+
+    /* H2 - Section headers */
+    .reveal h2 {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 2.2em;
+      color: var(--botanical-green);
+      margin-bottom: 0.6em;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 0.3em;
+    }
+
+    .reveal h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120px;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, var(--terracotta), transparent);
+    }
+
+    /* H3 - Subsections, card titles */
+    .reveal h3 {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 1.3em;
+      color: var(--sienna);
+      margin-top: 0.8em;
+      margin-bottom: 0.4em;
+    }
+
+    /* Body text */
+    .reveal p {
+      font-size: 0.72em;
+      line-height: 1.6;
+      color: var(--stone);
+      margin-bottom: 0.6em;
+    }
+
+    .reveal li {
+      font-size: 0.68em;
+      line-height: 1.55;
+      color: var(--stone);
+      margin-bottom: 0.35em;
+    }
+
+    .reveal ul, .reveal ol {
+      margin-left: 0.3em;
+    }
+
+    .reveal ul li::marker {
+      color: var(--soft-green);
+    }
+
+    /* Strong emphasis */
+    .reveal strong {
+      color: var(--charcoal-earth);
+      font-weight: 600;
+    }
+
+    /* Italic / callout text */
+    .reveal em {
+      color: var(--sienna);
+      font-family: var(--font-display);
+      font-style: italic;
+      font-size: 1.05em;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       TABLES - Botanical Reference Style
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal table {
+      font-size: 0.6em;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin: 1em 0;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 2px 15px rgba(45, 42, 38, 0.08);
+    }
+
+    .reveal table th {
+      background: var(--botanical-green);
+      color: white;
+      padding: 0.7em 1em;
+      text-align: left;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      border-bottom: 2px solid var(--deep-forest);
+    }
+
+    .reveal table td {
+      padding: 0.6em 1em;
+      border-bottom: 1px solid var(--clay);
+      vertical-align: top;
+    }
+
+    .reveal table tr:nth-child(odd) td {
+      background: var(--parchment);
+    }
+
+    .reveal table tr:nth-child(even) td {
+      background: var(--warm-sand);
+    }
+
+    .reveal table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       BLOCKQUOTES / CALLOUT BOXES
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal blockquote {
+      background: var(--warm-cream);
+      border-left: 5px solid var(--terracotta);
+      border-radius: 0 6px 6px 0;
+      padding: 1em 1.4em;
+      margin: 1em 0;
+      font-family: var(--font-display);
+      font-style: italic;
+      font-size: 0.75em;
+      color: var(--stone);
+      box-shadow: 0 2px 12px rgba(199, 91, 58, 0.1);
+    }
+
+    .reveal blockquote p {
+      font-size: 1em;
+      margin: 0;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       LINKS
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal a {
+      color: var(--sienna);
+      text-decoration: none;
+      border-bottom: 1px solid var(--clay);
+      transition: all 0.2s ease;
+    }
+
+    .reveal a:hover {
+      color: var(--terracotta);
+      border-bottom-color: var(--terracotta);
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       HORIZONTAL RULES - Decorative Dividers
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal hr {
+      border: none;
+      height: 3px;
+      width: 100px;
+      background: linear-gradient(90deg, var(--sienna), var(--terracotta));
+      margin: 1.2em 0;
+      border-radius: 2px;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       TITLE SLIDE - Special Hero Treatment
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal section.title-slide,
+    .reveal .slides > section:first-child > section:first-child {
+      text-align: center;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      padding: 60px;
+    }
+
+    .reveal section.title-slide::before,
+    .reveal .slides > section:first-child > section:first-child::before {
+      width: 100%;
+      height: 10px;
+      top: 0;
+      bottom: auto;
+      background: linear-gradient(
+        90deg,
+        var(--botanical-green) 0%,
+        var(--soft-green) 25%,
+        var(--sienna) 75%,
+        var(--terracotta) 100%
+      );
+    }
+
+    .reveal section.title-slide::after,
+    .reveal .slides > section:first-child > section:first-child::after {
+      display: none;
+    }
+
+    .reveal section.title-slide h1,
+    .reveal .slides > section:first-child > section:first-child h1 {
+      font-size: 2.6em;
+      margin-bottom: 0.1em;
+      text-shadow: 0 2px 4px rgba(61, 90, 61, 0.1);
+    }
+
+    .reveal section.title-slide h3,
+    .reveal .slides > section:first-child > section:first-child h3 {
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 0.65em;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--sienna);
+      margin: 0.5em 0 1.5em 0;
+      position: relative;
+      display: inline-block;
+    }
+
+    .reveal section.title-slide h3::before,
+    .reveal section.title-slide h3::after,
+    .reveal .slides > section:first-child > section:first-child h3::before,
+    .reveal .slides > section:first-child > section:first-child h3::after {
+      content: '✦';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0.6em;
+      color: var(--clay);
+    }
+
+    .reveal section.title-slide h3::before,
+    .reveal .slides > section:first-child > section:first-child h3::before {
+      left: -1.5em;
+    }
+
+    .reveal section.title-slide h3::after,
+    .reveal .slides > section:first-child > section:first-child h3::after {
+      right: -1.5em;
+    }
+
+    .reveal section.title-slide em,
+    .reveal .slides > section:first-child > section:first-child em {
+      display: block;
+      font-size: 0.7em;
+      margin-top: 0.5em;
+      color: var(--soft-green);
+    }
+
+    .reveal section.title-slide p,
+    .reveal .slides > section:first-child > section:first-child p {
+      font-size: 0.6em;
+      color: var(--stone);
+      margin-top: 2em;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       CLOSING SLIDE - Thank You Treatment
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal .slides > section:last-child > section:first-child {
+      text-align: center;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .reveal .slides > section:last-child > section:first-child h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+
+    .reveal .slides > section:last-child > section:first-child h2 {
+      font-size: 1.4em;
+      color: var(--sienna);
+    }
+
+    .reveal .slides > section:last-child > section:first-child h2::after {
+      display: none;
+    }
+
+    .reveal .slides > section:last-child > section:first-child blockquote {
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      text-align: center;
+      padding: 0;
+      margin: 1.5em auto;
+      max-width: 80%;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       CONTENT CARDS / BOXES
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal .card {
+      background: var(--warm-sand);
+      border-radius: 6px;
+      border-left: 5px solid var(--botanical-green);
+      padding: 1em 1.2em;
+      margin: 0.8em 0;
+    }
+
+    .reveal .card-accent {
+      border-left-color: var(--terracotta);
+    }
+
+    .reveal .card-sienna {
+      border-left-color: var(--sienna);
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       VERTICAL SLIDES - Sub-slide styling (centered content)
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal .slides section section {
+      padding-top: 30px;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Larger text on sub-slides */
+    .reveal .slides section section h3 {
+      font-size: 1.8em;
+      margin-bottom: 0.6em;
+    }
+
+    .reveal .slides section section p {
+      font-size: 1em;
+      max-width: 85%;
+    }
+
+    .reveal .slides section section ul,
+    .reveal .slides section section ol {
+      text-align: left;
+      display: inline-block;
+    }
+
+    .reveal .slides section section li {
+      font-size: 0.85em;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       REVEAL CONTROLS & UI
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal .progress {
+      background: var(--warm-sand);
+      height: 5px;
+    }
+
+    .reveal .progress span {
+      background: linear-gradient(90deg, var(--botanical-green), var(--soft-green));
+    }
+
+    .reveal .controls {
+      color: var(--botanical-green);
+    }
+
+    .reveal .controls button:hover {
+      color: var(--sienna);
+    }
+
+    .reveal .slide-number {
+      font-family: var(--font-display);
+      font-size: 14px;
+      color: var(--stone);
+      background: var(--warm-cream);
+      padding: 4px 10px;
+      border-radius: 3px;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       SLIDE BACKGROUNDS - Subtle texture
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal .slide-background {
+      background-image:
+        radial-gradient(ellipse at 100% 0%, rgba(107, 142, 107, 0.05) 0%, transparent 50%),
+        radial-gradient(ellipse at 0% 100%, rgba(139, 90, 43, 0.04) 0%, transparent 50%);
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       PRINT / PDF EXPORT
+    ═══════════════════════════════════════════════════════════════ */
+
+    @media print {
+      .reveal .slides section::before {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+    }
+
+    /* ═══════════════════════════════════════════════════════════════
+       ANIMATIONS & TRANSITIONS
+    ═══════════════════════════════════════════════════════════════ */
+
+    .reveal .slides section {
+      transition: opacity 0.6s ease;
+    }
+
+    .reveal h1, .reveal h2, .reveal h3 {
+      transition: color 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown
+               data-separator="^\n---\n"
+               data-separator-vertical="^\n--\n">
+        <textarea data-template></textarea>
+      </section>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+  <script src="/presentations/reveal-init.js"></script>
+  <script>
+    initReveal({
+      slideNumber: 'c/t',
+      showSlideNumber: 'all',
+      transition: 'fade',
+      transitionSpeed: 'slow',
+      backgroundTransition: 'fade',
+      width: 1280,
+      height: 720,
+      margin: 0.04
+    });
+  </script>
+</body>
+</html>
